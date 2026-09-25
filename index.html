@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Arup Mohanty - AI Full Stack Developer & Data Scientist">
-    <title>Arup Mohanty | AI Full Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Arup Mohanty — AI safety researcher and full-stack AI developer working on model evaluation, deployment drift, model forensics, and AI-enabled biosecurity.">
+    <title>Arup Mohanty | AI Safety Researcher &amp; Developer</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@500;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&amp;family=Outfit:wght@500;700&amp;display=swap"
         rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css?v=20260925">
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -32,13 +33,14 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#research">Research</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#releases">Releases</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="hamburger">
+            <button class="hamburger" type="button" aria-label="Open navigation" aria-expanded="false">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </button>
         </div>
     </nav>
 
@@ -47,10 +49,11 @@
         <div class="container hero-container">
             <div class="hero-content">
                 <span class="greeting">Hello, I'm</span>
-                <h1 class="hero-title">Arup Mohanty <br> <span class="text-gradient">AI Full Stack Developer</span></h1>
+                <h1 class="hero-title">Arup Mohanty <br> <span class="text-gradient">AI Safety Researcher &amp;
+                        Developer</span></h1>
                 <p class="hero-description">
-                    Specialized in Natural Language Processing, Reinforcement Learning, Large Language Models and
-                    building scalable web applications.
+                    I build and evaluate reliable AI systems, with research spanning deployment drift, model
+                    forensics, interpretable evaluations, and AI-enabled biosecurity.
                 </p>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">View Work</a>
@@ -71,20 +74,23 @@
             <div class="about-grid">
                 <div class="about-text">
                     <p>
-                        I am a passionate AI Software Developer and Data Scientist with a strong foundation in Computer
-                        Science.
-                        I have experience leading AI projects,
-                        co-founding startups,
-                        and conducting research in geospatial data analysis.
+                        I am an AI safety researcher and full-stack developer with experience leading applied AI
+                        projects from research design through deployment. My work combines model evaluation,
+                        behavioural analysis, data infrastructure, and clear communication for technical and
+                        non-technical stakeholders.
                     </p>
                     <p>
-                        My expertise lies in bridging the gap between advanced AI models (LLMs, RAG) and practical,
-                        user-friendly applications.
+                        I am particularly interested in how AI systems behave under changing deployment conditions and
+                        how rigorous evaluation can surface safety-relevant capabilities and failure modes. I completed
+                        BlueDot Impact's Biosecurity Fundamentals course and am applying this perspective to AI&times;Bio
+                        research and public-interest tooling.
                     </p>
                     <div class="skills-list">
                         <div class="skill-item"><i class="fab fa-python"></i> Python</div>
                         <div class="skill-item"><i class="fas fa-brain"></i> Machine Learning</div>
                         <div class="skill-item"><i class="fas fa-robot"></i> Generative AI</div>
+                        <div class="skill-item"><i class="fas fa-shield-halved"></i> AI Safety &amp; Evaluation</div>
+                        <div class="skill-item"><i class="fas fa-dna"></i> AI&times;Bio</div>
                         <div class="skill-item"><i class="fas fa-database"></i> SQL/NoSQL</div>
                         <div class="skill-item"><i class="fab fa-react"></i> React</div>
                         <div class="skill-item"><i class="fab fa-docker"></i> Docker</div>
@@ -93,7 +99,7 @@
                 </div>
                 <div class="about-stats">
                     <div class="stat-card">
-                        <h3>2+</h3>
+                        <h3>3+</h3>
                         <p>Years Experience</p>
                     </div>
                     <div class="stat-card">
@@ -115,7 +121,7 @@
                 <div class="timeline-item">
                     <div class="timeline-date">May 2024 - Aug 2025</div>
                     <div class="timeline-content">
-                        <h3>Project Lead & AI Full Stack Developer</h3>
+                        <h3>Project Lead &amp; AI Full Stack Developer</h3>
                         <h4>Mitacs Accelerate - Future Generations Foundation</h4>
                         <p>
                             Leading the development of AI software using NLP and Generative AI to automate application
@@ -172,7 +178,7 @@
     <!-- Research Section -->
     <section id="research" class="section research">
         <div class="container">
-            <h2 class="section-title">Research & <span class="text-gradient">Publications</span></h2>
+            <h2 class="section-title">Research &amp; <span class="text-gradient">Publications</span></h2>
             <div class="research-grid">
 
                 <!-- Publication 1 -->
@@ -184,7 +190,7 @@
                         <h3>Integrating NLP with Decision Support Systems for Automated Resume Filtering and Candidate
                             Shortlisting</h3>
                         <p class="research-meta">Published: Oct 2025 &bull; International Conference on Information
-                            Technology & Systems</p>
+                            Technology &amp; Systems</p>
                         <p>
                             Explores the integration of Natural Language Processing (NLP) with decision support systems
                             to automate the filtering of resumes and the shortlisting of candidates.
@@ -250,12 +256,63 @@
             <div class="projects-grid">
 
                 <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="placeholder-img"></div>
+                <article class="project-card featured-project">
+                    <div class="project-image project-visual project-visual-bio">
+                        <i class="fas fa-dna" aria-hidden="true"></i>
+                        <span>AI &times; Biosecurity</span>
                     </div>
                     <div class="project-info">
-                        <h3>Hybrid AI Evaluation Platform</h3>
+                        <p class="project-kicker">BlueDot Biosecurity Project &bull; Completed 2026</p>
+                        <h3>Biosecurity Signals</h3>
+                        <p>Designed and built a public-source research prototype for comparing reported safeguards
+                            across AI-enabled biology tools. The project makes evidence, limitations, and public safety
+                            claims easier to inspect without treating disclosure frequency as a safety score.</p>
+                        <div class="project-tags">
+                            <span>AI&times;Bio</span>
+                            <span>Biosecurity</span>
+                            <span>Research</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/arupm23/biosecurity-signals" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-github"></i> View project</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image project-visual project-visual-safety">
+                        <i class="fas fa-magnifying-glass-chart" aria-hidden="true"></i>
+                        <span>Model Evaluation</span>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-kicker">Independent AI Safety Research</p>
+                        <h3>Deployment Drift &amp; Model Forensics</h3>
+                        <p>Built reproducible evaluation pipelines to study long-horizon model behaviour, controlled
+                            distribution shifts, objective retention, refusal patterns, and confidence calibration.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>LLM Evals</span>
+                            <span>Model Forensics</span>
+                            <span>AI Safety</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/arupm23/claude-safety-refusal-forensics" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-github"></i> View research</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image project-visual project-visual-platform">
+                        <i class="fas fa-layer-group" aria-hidden="true"></i>
+                        <span>Applied AI Platform</span>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-kicker">Mitacs Accelerate &bull; Future Generations Foundation</p>
+                        <h3>HAIPSE: Hybrid AI Evaluation Platform</h3>
                         <p>Built a platform integrating NLP, LLMs, RAG, and vector databases to streamline evaluation
                             processes.</p>
                         <div class="project-tags">
@@ -267,10 +324,11 @@
                     </div>
                 </div>
 
-                <!-- Project 2 -->
+                <!-- Project 4 -->
                 <div class="project-card">
-                    <div class="project-image">
-                        <div class="placeholder-img"></div>
+                    <div class="project-image project-visual project-visual-finance">
+                        <i class="fas fa-chart-line" aria-hidden="true"></i>
+                        <span>Data Product</span>
                     </div>
                     <div class="project-info">
                         <h3>Real-time CAPM Model</h3>
@@ -285,10 +343,11 @@
                     </div>
                 </div>
 
-                <!-- Project 3 -->
+                <!-- Project 5 -->
                 <div class="project-card">
-                    <div class="project-image">
-                        <div class="placeholder-img"></div>
+                    <div class="project-image project-visual project-visual-ml">
+                        <i class="fas fa-diagram-project" aria-hidden="true"></i>
+                        <span>Machine Learning</span>
                     </div>
                     <div class="project-info">
                         <h3>Customer Segmentation</h3>
@@ -306,21 +365,58 @@
         </div>
     </section>
 
+    <!-- Releases Section -->
+    <section id="releases" class="section releases">
+        <div class="container">
+            <div class="section-heading-row">
+                <h2 class="section-title">Selected <span class="text-gradient">Releases</span></h2>
+                <p>Research artifacts and tools released for public inspection and reuse.</p>
+            </div>
+            <div class="release-list">
+                <article class="release-card">
+                    <div class="release-mark" aria-hidden="true">01</div>
+                    <div class="release-content">
+                        <div class="release-topline">
+                            <span class="release-version">v0.1 &bull; September 2026</span>
+                            <span class="release-status"><i class="fas fa-circle-check"></i> Released</span>
+                        </div>
+                        <h3>BioSignals</h3>
+                        <p>A lightweight, static research tool for examining source-linked biosecurity statements and
+                            reported safeguard practices across AI-enabled biology tools. The first release includes
+                            searchable records, safeguard filters, explicit limitations, and one-click JSON export.</p>
+                        <ul class="release-details">
+                            <li><i class="fas fa-check"></i> Public-source, evidence-linked records</li>
+                            <li><i class="fas fa-check"></i> Safety-conscious scope with no operational threat guidance</li>
+                            <li><i class="fas fa-check"></i> Open-source code and reusable structured data</li>
+                        </ul>
+                        <div class="release-actions">
+                            <a class="btn btn-outline btn-compact" href="https://github.com/arupm23/biosecurity-signals"
+                                target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Explore
+                                BioSignals</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="section contact">
         <div class="container">
             <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
             <div class="contact-content">
                 <p>
-                    I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
-                    visions.
+                    I am open to research and engineering opportunities in AI safety, model evaluation, and AI&times;Bio.
                 </p>
                 <a href="mailto:arupm2195@gmail.com" class="btn btn-primary">Say Hello</a>
 
                 <div class="social-links">
-                    <a href="https://github.com/arupm23" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/arup19/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="mailto:arupm2195@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/arupm23" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub profile"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/arup19/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:arupm2195@gmail.com" aria-label="Email Arup Mohanty"><i
+                            class="fas fa-envelope"></i></a>
                 </div>
             </div>
         </div>
@@ -329,11 +425,11 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Arup Mohanty. All rights reserved.</p>
+            <p>&copy; 2026 Arup Mohanty. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="./script.js"></script>
+    <script src="./script.js?v=20260925"></script>
 </body>
 
 </html>
